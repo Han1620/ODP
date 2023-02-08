@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  /* this prioritisees the height/width, so that the margins/padding dont increase these parameters  */
+}
+
+body {
+  background-color: #6050dc;
+  color: white;
+  font-family: monospace;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 10vh 80vh 10vh;
+}
+/* vh/ viewport height works like a percentage, however it is based around what the viewer can see, not the webpage itself. there is a max 100vh to distribute if you want the whole page to be viewable  */
+
+/* grid styles */
+
+header {
+  grid-area: 1 / 1 / 2 / 3;
+  background-color: turquoise;
+  color: rgb(34, 33, 33);
+}
+
+#results {
+  grid-area: 2 / 1 / 3 / 2;
+  background-color: #ff5733;
+  color: rgb(34, 33, 33);
+}
+
+#main-container {
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: #fafa33;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+  grid-area: 3 / 1 / 4 / 3;
+  background-color: #6050dc;
+}
