@@ -40,3 +40,14 @@ footer {
   grid-area: 3 / 1 / 4 / 3;
   background-color: #6050dc;
 }
+
+/* main styles */
+
+#img-container {
+  display: flex;
+  justiify-content: space-between;
+}
+
+#img-container img {
+  max-width: 30%;
+}
