@@ -9,7 +9,7 @@ body {
   font-family: monospace;
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: 10vh 80vh 10vh;
+  grid-template-rows: 1fr 8fr 1fr;
 }
 /* vh/ viewport height works like a percentage, however it is based around what the viewer can see, not the webpage itself. there is a max 100vh to distribute if you want the whole page to be viewable  */
 
